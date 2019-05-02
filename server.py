@@ -9,7 +9,7 @@ def socket_create():
         global host
         global port
         global s
-        host = "10.0.3.114"
+        host = "Put your Host IP here"
         port = 9999
         s = socket.socket()
     except socket.error as msg:
